@@ -1,0 +1,40 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>codes.vg.better-kotlin-java-completion</id>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+    <name>Better Kotlin-Java Completion</name>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor email="vlad@vg.codes">Vlad Guriev</vendor>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+    <description><![CDATA[
+    <p>Enhances Java development with Kotlin data classes by filtering out generated <code>componentN()</code> functions from code completion (auto-complete) suggestions.</p>
+    <p>This plugin reduces clutter in code completion dropdowns and improves auto-complete relevance when working with Kotlin data classes in Java code.</p>
+    <h2>Features</h2>
+    <ul>
+    <li>Hides generated <code>componentN()</code> functions in Java code completion for Kotlin data classes</li>
+    <li>Improves auto-complete suggestions for mixed Java-Kotlin projects</li>
+    <li>Streamlines the development process for Java developers working with Kotlin by providing cleaner completion results</li>
+    </ul>
+  ]]></description>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>org.jetbrains.kotlin</depends>
+    <depends>com.intellij.modules.java</depends>
+
+    <!-- Extension points defined by the plugin.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
+    <extensions defaultExtensionNs="com.intellij">
+        <completion.contributor
+                language="JAVA"
+                implementationClass="codes.vg.betterkotlinjavacompletion.KotlinDataClassCompletionContributor"/>
+    </extensions>
+</idea-plugin>
