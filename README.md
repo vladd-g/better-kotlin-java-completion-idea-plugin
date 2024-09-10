@@ -1,4 +1,8 @@
-# Better Kotlin – Java Completion
+<h1 align="center">Better Kotlin – Java Completion</h1>
+
+<p align="center">
+  <a href="https://plugins.jetbrains.com/plugin/25276-better-kotlin-java-completion"><img src="https://img.shields.io/jetbrains/plugin/v/25276"></a>
+</p>
 
 This plugin enhances the Java development experience when working with Kotlin data classes by filtering out generated `componentN()` functions from code completion (auto-complete) suggestions.
 
