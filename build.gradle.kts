@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "codes.vg"
-version = "1.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
@@ -32,7 +32,7 @@ tasks {
 
     patchPluginXml {
         sinceBuild.set("232")
-        untilBuild.set("242.*")
+        untilBuild.set("243.*")
     }
 
     signPlugin {

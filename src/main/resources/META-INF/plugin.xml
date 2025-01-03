@@ -18,11 +18,22 @@
     <p>This plugin reduces clutter in code completion dropdowns and improves auto-complete relevance when working with Kotlin data classes in Java code.</p>
     <h2>Features</h2>
     <ul>
-    <li>Hides generated <code>componentN()</code> functions in Java code completion for Kotlin data classes</li>
-    <li>Improves auto-complete suggestions for mixed Java-Kotlin projects</li>
-    <li>Streamlines the development process for Java developers working with Kotlin by providing cleaner completion results</li>
+      <li>Hides generated <code>componentN()</code> functions in Java code completion for Kotlin data classes</li>
+      <li>Improves auto-complete suggestions for mixed Java-Kotlin projects</li>
+      <li>Streamlines the development process for Java developers working with Kotlin by providing cleaner completion results</li>
     </ul>
   ]]></description>
+
+    <change-notes><![CDATA[
+    <p>v1.0.1 (2024-09-29):</p>
+    <ul>
+      <li>Support for 2024.3</li>
+    </ul>
+    <p>v1.0 (2024-09-07):</p>
+    <ul>
+      <li>Initial release</li>
+    </ul>
+    ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
