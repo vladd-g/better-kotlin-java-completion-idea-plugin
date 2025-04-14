@@ -25,6 +25,10 @@
   ]]></description>
 
     <change-notes><![CDATA[
+    <p>v1.0.2 (2025-04-14):</p>
+    <ul>
+      <li>Support for 2025.1 and all future IDE versions</li>
+    </ul>
     <p>v1.0.1 (2024-09-29):</p>
     <ul>
       <li>Support for 2024.3</li>
