@@ -1,3 +1,9 @@
+> ⚠️ **Note:** This branch (`main`) contains the version of the plugin that was covered in articles on [Droidcon](https://www.droidcon.com/2024/09/26/better-kotlin-java-auto-complete-how-to-improve-code-completion-suggestions-in-mixed-projects/) and [ProAndroidDev](https://proandroiddev.com/better-kotlin-java-auto-complete-d0fd7e8a9355).
+>
+> ✅ Active development continues in the [`trunk`](https://github.com/vladd-g/better-kotlin-java-completion-idea-plugin/tree/trunk) branch, which includes the latest features and improvements.
+>
+> 🔖 You can find the latest stable releases on the [Releases page](https://github.com/vladd-g/better-kotlin-java-completion-idea-plugin/releases).
+
 <h1 align="center">Better Kotlin – Java Completion</h1>
 
 <p align="center">
