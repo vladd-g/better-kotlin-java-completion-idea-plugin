@@ -46,6 +46,6 @@
     <extensions defaultExtensionNs="com.intellij">
         <completion.contributor
                 language="JAVA"
-                implementationClass="codes.vg.betterkotlinjavacompletion.KotlinDataClassCompletionContributor"/>
+                implementationClass="codes.vg.betterkotlinjavacompletion.KotlinCompletionContributor"/>
     </extensions>
 </idea-plugin>
